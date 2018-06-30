@@ -1,0 +1,9 @@
+server.port: 8010
+
+spring.cloud.config.enabled: true
+
+eureka.client.serviceUrl.defaultZone: http://192.168.5.138:8761/eureka    
+eureka.client.registerWithEureka: true
+eureka.client.fetchRegistry: true
+    
+eureka.instance.preferIpAddress: true
