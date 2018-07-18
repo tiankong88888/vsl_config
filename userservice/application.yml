@@ -1,0 +1,9 @@
+server:
+  port: 8030 
+  
+signing.key: 'd0ngf@ngb0ri'
+  
+logging:
+  level:
+    org.springframework.security.oauth2.common.OAuth2AccessToken: DEBUG
+    

@@ -4,6 +4,8 @@ zuul.ignored-services: '*'
 zuul.prefix: /api
 zuul.debug.request: true
 
+zuul.sensitiveHeaders: Cookie,Set-Cookie
+
 zuul.routes.patientservice: /patientservice/**
 #zuul.routes.emrservice: /emrservice/**
 

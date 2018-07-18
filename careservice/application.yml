@@ -1,0 +1,23 @@
+server:
+  port: 8040
+  
+signing.key: “345345fsdgsf5345”
+signing.publickey: |
+      -----BEGIN PUBLIC KEY-----
+      MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwLmE8OOpa67tpjD0Dx7O
+      RVAFMOTRhrc3oyzbrMalkQ88jenEsSoM6olM7y/4Yn+Y173uBNvLHvwHWEKr42It
+      ZisaEx5w0CjPKH++On3GiyFtIYvHGgHfEXWx/cn6frZ3rFfimQJcSC8tE0awwkwW
+      WVVUka9HDwRzpK34LkLMHnL8VqYxghQH9gNPHmabHvHt8tc9reBZk9hhXXwkwbf3
+      nCwAf6nhZ2IUQzTpZWv/W0B7TcW/D1DT+mNXw4mZBeTUf0sJc4Pd7n4G6Exf0IOZ
+      GXXgP3xHbOkuUqIuR9pmrhZBZoD+5M+KnLDCIXPrQwfBXecq3sf8DJhTI0riCOQw
+      5QIDAQAB
+      -----END PUBLIC KEY-----
+
+logging:
+  level:
+    org.springframework.security.oauth2.common.OAuth2AccessToken: DEBUG
+    org.springframework.security.oauth2.provider.token.DefaultTokenServices: DEBUG
+    org.springframework.security.oauth2.provider.token.TokenStore: DEBUG
+    org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter: DEBUG
+    org.springframework.security.oauth2.provider.token.store.JwtTokenStore: DEBUG
+    
